@@ -75,9 +75,18 @@
     font-family: 'EB Garamond', serif;
   }
 
-  .container {
-    padding-top: 15%;
-    max-width: 800px;
+  @media (min-width: 600px) {
+    .container {
+      padding-top: 15%;
+      max-width: 800px;
+    }
+  }
+
+  @media (max-width: 599px) {
+    .container {
+      padding-top: 3rem;
+      max-width: 800px;
+    }
   }
 
   .quotes-container {
